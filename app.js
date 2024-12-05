@@ -1,4 +1,5 @@
-//step 1: get DOM
+document.addEventListener('DOMContentLoaded', () => {
+    //step 1: get DOM
 let nextDom = document.getElementById('next');
 let prevDom = document.getElementById('prev');
 
@@ -47,3 +48,4 @@ function showSlider(type){
         next.click();
     }, timeAutoNext)
 }
+});
