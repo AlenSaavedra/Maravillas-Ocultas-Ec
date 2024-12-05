@@ -379,4 +379,7 @@ header a:hover {
     .carousel .list .item .content .title {
         font-size: 30px;
     }
+    nav {
+        display: none;
+    }
 }
